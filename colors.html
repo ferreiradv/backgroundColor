@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        main{
+            background-color: #B2ABF2;
+            width: 750px;
+            height: 100%;
+            margin: auto;
+            padding: 20px;
+            
+        }
+        button{
+            padding: 20px;
+            margin: 10px;
+        }
+
+        #aeroblue{
+            background: #C0F8D1;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #poragen{
+            background: #DC965A;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #gbcrayola{
+            background: #3F88C5;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #slyellow{
+            background: #FFBA08;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #pinegreen{
+            background: #136F63;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #skyblue{
+            background: #85C7DE;
+            border: none;
+            border-radius: 10px;
+        }
+
+        #b-resert{
+            width: 100%;
+            border: 1px solid #000000;
+            background: transparent;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <main>
+            <button id="aeroblue" onclick="aeroblue()">Aero Blue</button>
+            <button id="poragen" onclick="poragen()">Persian Oragen</button>
+            <button id="gbcrayola" onclick="gbcrayola()">Green Blue Crayola</button>
+            <button id="slyellow" onclick="slyellow()">Selective Yellow</button>
+            <button id="pinegreen" onclick="pinegreen()">Pine Green</button>
+            <button id="skyblue" onclick="skyblue()">Sky Blue</button>
+
+            <button id="b-resert" onclick="resert()">Resert</button>
+    </main>
+
+    <script>
+        function aeroblue(){
+            document.body.style.backgroundColor = '#C0F8D1'
+        }
+
+        function poragen(){
+            document.body.style.backgroundColor = '#DC965A'
+        }
+
+        function gbcrayola(){
+            document.body.style.backgroundColor = '#3F88C5'
+        }
+
+        function slyellow(){
+            document.body.style.backgroundColor = '#FFBA08'
+        }
+
+       function pinegreen(){
+            document.body.style.backgroundColor = '#136F63'
+       }
+
+       function skyblue(){
+            document.body.style.backgroundColor = '#85C7DE'
+       }
+
+
+       function resert(){
+            document.body.style.backgroundColor = ''
+       }
+    </script>
+   
+</body>
+</html>
