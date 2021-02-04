@@ -1,5 +1,5 @@
 # backgroundColor
-Sistema em javascript que muda a cor do background do body ao clicar sobre o botão da cor desejada.
+Sistema em javascript que muda a cor do background do body ao escolher a cor desejada.
 
 .HTML
 .CSS
